@@ -2,7 +2,9 @@
 
 @Component({
   selector: 'my-employee',
-  templateUrl: 'app/employee/employee.component.html'
+  templateUrl: 'app/employee/employee.component.html',
+  //styles: ['table {font-weight: bold; color: green}']
+  styleUrls: ['app/employee/employee.component.css']
 })
 
 export class EmployeeComponent {
